@@ -4,6 +4,7 @@ function post (){
   const submit = document.getElementById("submit");
   // クリックした時のアクション
   submit.addEventListener("click", (e) => {
+    // ブラウザリクエストをキャンセル
     e.preventDefault();
     const form = document.getElementById("form");
     // フォーム内容取得
